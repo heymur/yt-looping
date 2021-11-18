@@ -1,11 +1,11 @@
 #! /bin/bash
-VBR="2500k"                                    
+VBR="750k"                                    
 FPS="30"                                    
 QUAL="veryfast"                              
 YOUTUBE_URL="rtmp://a.rtmp.youtube.com/live2"
 
 SOURCE="out.mp4"           
-KEY="***********"                               
+KEY="*********"                               
 
 ffmpeg \
     -i "$SOURCE" -deinterlace \
