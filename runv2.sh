@@ -5,7 +5,7 @@ QUAL="veryfast"
 YOUTUBE_URL="rtmp://a.rtmp.youtube.com/live2"
 
 SOURCE="out.mp4"           
-KEY="q9qm-wsz7-14uu-ej69-b89p"                               
+KEY="***********"                               
 
 ffmpeg \
     -i "$SOURCE" -deinterlace \
